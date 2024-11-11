@@ -33,6 +33,7 @@ plugins:
       pagination_per_page: 2 # controls all pagination
       archive_pagination_per_page: 1 # or you can set a specific number for archive
       categories_pagination_per_page: 4 # or set a speicific number for the categories index
+      blog_toc: true # This turns on the TOC for the index pages, which appears on the right
   - tags:
       tags_file: blog/tags.md # This setting is not necessary with Insiders
   - meta
