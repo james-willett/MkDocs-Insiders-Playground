@@ -26,6 +26,9 @@ plugins:
   - search
   - blog:
       archive_date_format: MMMM yyyy # This adds the month to the archive
+      categories_allowed:
+        - Holidays
+        - News
   - meta
 
 nav:
