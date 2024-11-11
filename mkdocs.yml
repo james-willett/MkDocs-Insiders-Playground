@@ -3,6 +3,8 @@ site_description: Playground for trying out all MkDocs Material features
 site_url: https://sitename.example
 theme:
   name: material
+  features:
+    - navigation.indexes # This gets rid of the extra "blog" entry under blog post navigation
   palette:
     # Dark Mode
     - scheme: slate
@@ -22,5 +24,16 @@ theme:
 
 plugins:
   - search
-  - blog
+  - blog:
+      archive_date_format: MMMM yyyy # This adds the month to the archive
   - meta
+
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Usage: usage.md
+  - Blog:
+      - blog/index.md
+      - blog/posts/myFirstBlogPost.md # Reference a specific post to appear in the Nav section
+      - blog/randomPost.md # This post is not in the `posts` folder, so doesn't appear in the blog, but is on the nav
+
