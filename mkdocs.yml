@@ -34,6 +34,10 @@ plugins:
       archive_pagination_per_page: 1 # or you can set a specific number for archive
       categories_pagination_per_page: 4 # or set a speicific number for the categories index
       blog_toc: true # This turns on the TOC for the index pages, which appears on the right
+      post_slugify:
+        !!python/object/apply:ext.slugs.slugify # Also needed to do `export PYTHONPATH=$PYTHONPATH:$(pwd)/ext`
+        kwds:
+          short: true # This will change a slug to make it max 5 words, thanks to the custom logic
   - tags:
       tags_file: blog/tags.md # This setting is not necessary with Insiders
   - meta

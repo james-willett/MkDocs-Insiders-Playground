@@ -4,6 +4,7 @@ date:
 draft: true
 authors:
   - squidfunk
+slug: second-post-noob # custom slug
 ---
 
 # My Second Post!
