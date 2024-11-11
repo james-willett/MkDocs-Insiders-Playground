@@ -1,9 +1,7 @@
 ---
 date:
-  created: 2024-11-06
-  updated: 2024-12-08
-readtime: 15
-pin: true
+  created: 2024-12-07
+readtime: 2
 links:
   - Homepage: index.md
   - Blog index: blog/index.md
@@ -11,9 +9,9 @@ links:
       - Material documentation: https://squidfunk.github.io/mkdocs-material
 ---
 
-# My First Blog Post
+# My Third Blog Post
 
-This is the text for my first blog post.
+This is the text for my third blog post.
 
 <!-- more -->
 
