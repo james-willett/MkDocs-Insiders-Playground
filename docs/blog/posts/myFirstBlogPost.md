@@ -11,6 +11,10 @@ links:
       - Material documentation: https://squidfunk.github.io/mkdocs-material
 categories:
   - Holidays
+tags:
+  - new year
+  - festive season
+  - Christmas
 ---
 
 # My First Blog Post

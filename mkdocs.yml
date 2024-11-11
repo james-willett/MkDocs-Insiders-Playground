@@ -29,6 +29,8 @@ plugins:
       categories_allowed:
         - Holidays
         - News
+  - tags:
+      tags_file: blog/tags.md # This setting is not necessary with Insiders
   - meta
 
 nav:
@@ -39,4 +41,5 @@ nav:
       - blog/index.md
       - blog/posts/myFirstBlogPost.md # Reference a specific post to appear in the Nav section
       - blog/randomPost.md # This post is not in the `posts` folder, so doesn't appear in the blog, but is on the nav
-
+      - blog/tags.md # This one is just tags in the blog
+  - Tags: tags.md # This page has tags for the whole site, not just the blog
