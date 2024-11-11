@@ -2,6 +2,8 @@
 date:
   created: 2023-06-09
 draft: true
+authors:
+  - squidfunk
 ---
 
 # My Second Post!

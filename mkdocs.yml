@@ -29,6 +29,7 @@ plugins:
       categories_allowed:
         - Holidays
         - News
+      authors_profiles: true
   - tags:
       tags_file: blog/tags.md # This setting is not necessary with Insiders
   - meta

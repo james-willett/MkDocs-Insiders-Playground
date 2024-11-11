@@ -15,6 +15,8 @@ tags:
   - new year
   - festive season
   - Christmas
+authors:
+  - team
 ---
 
 # My First Blog Post
