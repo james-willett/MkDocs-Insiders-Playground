@@ -9,6 +9,14 @@ links:
   - Blog index: blog/index.md
   - External links:
       - Material documentation: https://squidfunk.github.io/mkdocs-material
+categories:
+  - Holidays
+tags:
+  - new year
+  - festive season
+  - Christmas
+authors:
+  - team
 ---
 
 # My First Blog Post

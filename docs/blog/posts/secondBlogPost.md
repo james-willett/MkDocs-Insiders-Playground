@@ -1,7 +1,10 @@
 ---
 date:
-  created: 2024-11-09
+  created: 2023-06-09
 draft: true
+authors:
+  - squidfunk
+slug: second-post-noob # custom slug
 ---
 
 # My Second Post!
